@@ -1,0 +1,62 @@
+{
+  "likes_media_likes": [
+    {
+      "title": "example_friend",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/p/example1/",
+          "value": "example_friend",
+          "timestamp": 1711929600
+        }
+      ]
+    },
+    {
+      "title": "another_account",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/p/example2/",
+          "value": "another_account",
+          "timestamp": 1712016000
+        }
+      ]
+    }
+  ],
+  "story_activities_story_likes": [
+    {
+      "title": "example_friend",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/stories/example_friend/",
+          "value": "example_friend",
+          "timestamp": 1712102400
+        }
+      ]
+    }
+  ],
+  "data": {
+    "xdt_api__v1__feed__user_timeline_graphql_connection": {
+      "edges": [
+        {
+          "node": {
+            "like_count": 42,
+            "comment_count": 4,
+            "taken_at_timestamp": 1712188800,
+            "owner": {
+              "username": "sample_owner"
+            }
+          }
+        },
+        {
+          "node": {
+            "like_count": 58,
+            "comment_count": 7,
+            "taken_at_timestamp": 1712275200,
+            "owner": {
+              "username": "sample_owner"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

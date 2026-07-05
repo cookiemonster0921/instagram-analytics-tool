@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+output/
+uploads/
+*.log
+
+# Do not commit personal Instagram exports.
+instagram-*/
+your_instagram_activity/
+personal_information/
+media/
+messages/
