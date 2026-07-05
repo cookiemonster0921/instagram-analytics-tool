@@ -32,6 +32,7 @@ paths, cookies, session IDs, webhooks, or API tokens.
 Use Python 3.10 or newer.
 
 ```bash
+git clone <repo-url>
 cd instagram-analytics-tool
 python3 -m venv .venv
 source .venv/bin/activate
@@ -39,6 +40,23 @@ python -m pip install -e .
 ```
 
 The runtime uses only the Python standard library.
+
+## Quick Verification
+
+Run the included sample export through the analyzer:
+
+```bash
+instagram-analytics analyze examples/sample_export.json
+instagram-analytics report examples/sample_export.json -o output/report.md
+instagram-analytics charts examples/sample_export.json -o output
+```
+
+Run tests:
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests
+python -m compileall src tests
+```
 
 ## CLI Usage
 
